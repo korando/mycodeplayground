@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>demoit</title>
+    <link rel="stylesheet" href="./vendor/codemirror/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- <div class="left">
+      <div class=""></div>
+    </div>
+    <div class="right">
+      <div class="js-code-editor"></div>
+    </div>
+    <div class="right">
+      <div class="js-console"></div>
+    </div> -->
+
+      <div id="a" class="split split-horizontal">
+        <div id="c" class="split content"></div>
+        <div id="d" class="split content"></div>
+        <div id="e" class="js-code-editor"></div>
+      </div>
+      <div id="b" class="split split-horizontal">
+        <div id="f" class="output"></div>
+        <div id="g" class="console-output"></div>
+      </div>
+    </div>
+
+    
+    <div class="pencil-button">
+      <svg
+        width="22"
+        height="22"
+        viewBox="0 0 1792 1792"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z"
+        />
+      </svg>
+    </div>
+
+    <script src="./vendor/codemirror/codemirror.js"></script>
+    <script src="./vendor/codemirror/javascript.js"></script>
+    <script src="./vendor/codemirror/xml.js"></script>
+    <script src="./vendor/codemirror/jsx.js"></script>
+    <script src="./vendor/split.js"></script>
+    <script src="./assets/js/utils.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
